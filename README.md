@@ -1,7 +1,7 @@
 # Information
 
 ## Tips
-- [GitCommand](https://github.com/RealTwo-Space/Information/blob/master/GitCommand.md
+- [Git Command List](https://github.com/RealTwo-Space/Information/blob/master/GitCommand.md)
 
 ## Project Neumann
 - trello: https://trello.com/b/xUCqtYfg/project-neumann
