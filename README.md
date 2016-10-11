@@ -14,3 +14,6 @@
 3. if your branch is out of date, then pull from dev
 4. if you completed your develop, then push your branch
 5. pull request to dev branch
+
+
+<script src="https://gist.github.com/ryunryunryun/34d4685b37394ad092788c41050a1a54.js"></script>
