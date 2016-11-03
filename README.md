@@ -3,9 +3,7 @@
 - [Git Command List](https://github.com/RealTwo-Space/Information/blob/master/GitCommand.md)
 
 ## Project Neumann
-- trello: https://trello.com/b/xUCqtYfg/project-neumann
-- travis ci: https://travis-ci.org/RealTwo-Space/Neumann
-- zapier: https://zapier.com/app/editor/12714747/overview
+we use ZenHub for task management
 
 ### Develop Flow
 1. first, you make branch from dev (or after Fork)
