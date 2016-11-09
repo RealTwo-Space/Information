@@ -55,8 +55,8 @@ $ git push origin {branch name}
 #### pull
 
 ```
-$ git pull`
-``
+$ git pull
+```
 
 ```
 $ git pull origin {branch name}
