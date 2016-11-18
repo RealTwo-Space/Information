@@ -18,7 +18,8 @@ check all branch
 $ git branch -a
 ```
 
-### Make and Delete Branch
+### Branch Operation
+#### make
 make new branch from current branch
 ```
 $ git branch {branch name}
@@ -31,7 +32,7 @@ make new branch and change current branch to the new branch
 ```
 $ git checkout -b {branch name}
 ```
-
+#### delete
 delete branch
 ```
 $ git branch -d {branch name}
@@ -43,6 +44,28 @@ $ git branch -D {branch name}
 push deleted branch to remote repository
 ```
 $ git push origin :{deleted branch name}
+```
+#### fetch
+```
+$ git fetch origin {branch name}
+```
+#### merge
+merge current branch from {branch name}
+```
+$ git merge {branch name}
+```
+recover from merge
+```
+git merge --no-ff {branch name}
+```
+#### pull
+pull includes fetch and merge
+```
+$ git pull
+```
+
+```
+$ git pull origin {branch name}
 ```
 ### Check Differences
 check differences in local repository.
@@ -81,6 +104,8 @@ $ git commit
 $ git commit -m "{comment}"
 ```
 
+
+
 #### push
 
 ```
@@ -91,13 +116,14 @@ $ git push
 $ git push origin {branch name}
 ```
 
-#### pull
-
+### Repository
+#### check
+check differences between local and remote repository
 ```
-$ git pull
+$ git remote prune —dry-run origin
 ```
-
+#### sync
+sync local and remote repository. This command will change only local repository.
 ```
-$ git pull origin {branch name}
+$ git remote prune
 ```
-
