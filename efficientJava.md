@@ -50,3 +50,34 @@ float b = x * y * d * c;
 Note:
 
 Speed : ADD ~ SUB > MULT > DIV
+
+### 4. Autoboxing/Unboxing
+Bad
+```java
+public interface Calculation<V> {
+  V getValue();
+  void calc(Calculation<V> value);
+}
+public class Test implement Calculation<Float> {
+  private float value;
+  public Float getValue() {
+    return this.value;
+  }
+  public void calc(Calculation<Float> value) {
+    this.value = value.getValue() * value.getValue() * value.getValue();
+  }
+}
+```
+Good
+```java
+public class Test ...
+  public void calc(Calculation<Float> value) {
+     Test temp = (Test) value;
+     this.value = temp.value * temp.value * this.value; 
+  }
+}
+
+```
+Note:
+
+Autoboxing/Unboxing are useful for coding. But they will be a factor for bad performance.
