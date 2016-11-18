@@ -31,3 +31,18 @@ for (int i = 0, n = array.length; i < n; i++) {
   array[i] = ...    
 }
 ```
+
+### 3. Arithmetic Calculation
+Bad
+```java
+float a = (x * x - y * y) / (x * x + y * y);
+float b = (x * x * y - y * y * x) / (x * x + y * y);
+```
+
+Good
+```java
+float c = 1f / (x * x + y * y);
+float d = x - y;
+float a = (x + y) * d * c;
+float b = x * y * d * c;
+```
