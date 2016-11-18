@@ -58,7 +58,7 @@ public interface Calculation<V> {
   V getValue();
   void calc(Calculation<V> value);
 }
-public class Test implement Calculation<Float> {
+public class Test implements Calculation<Float> {
   private float value;
   public Float getValue() {
     return this.value;
@@ -72,11 +72,10 @@ Good
 ```java
 public class Test ...
   public void calc(Calculation<Float> value) {
-     Test temp = (Test) value;
-     this.value = temp.value * temp.value * this.value; 
+     Test temp = (Test)value;
+     this.value = temp.value * temp.value * temp.value; 
   }
 }
-
 ```
 Note:
 
