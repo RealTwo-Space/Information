@@ -17,7 +17,7 @@ import java.util.Arrays;
 int[] newArray = Arrays.copyOf(origin, origin.length);
 ```
 
-### 2. Array Access with for
+### 2. Array Access with ``for``
 Bad
 ```java
 for (int i = 0; i < array.length; i++) {
