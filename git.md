@@ -25,9 +25,13 @@ $ git diff {file path}
 ```
 
 ### Stage
-add file to staging
+add new or modified file to staging
 ```
 $ git add {file path}
+```
+add deleted file to staging
+```
+$ git rm {file path}
 ```
 cansel staging file
 ```
