@@ -46,3 +46,9 @@ float d = x - y;
 float a = (x + y) * d * c;
 float b = x * y * d * c;
 ```
+
+Note:
+
+Speed : + ADD ~ SUB < MULT < DIV
+
+Do not use DIV
