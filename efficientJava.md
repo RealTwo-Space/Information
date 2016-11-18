@@ -49,4 +49,4 @@ float b = x * y * d * c;
 
 Note:
 
-Speed : + ADD ~ SUB > MULT > DIV
+Speed : ADD ~ SUB > MULT > DIV
