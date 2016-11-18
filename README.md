@@ -2,6 +2,7 @@
 ## Tips
 - [Git](https://github.com/RealTwo-Space/Information/blob/master/git.md)
 - [Scrum](https://github.com/RealTwo-Space/Information/blob/master/scrum.md)
+- [Efficient Java](https://github.com/RealTwo-Space/Information/blob/master/efficientJava.md)
 
 ## Project Neumann
 we use ZenHub for task management
