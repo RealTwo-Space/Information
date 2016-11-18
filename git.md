@@ -8,7 +8,42 @@
 ```
 $ git clone {url}
 ```
+### Check Branch
+check current branch
+```
+$ git branch
+```
+check all branch
+```
+$ git branch -a
+```
 
+### Make and Delete Branch
+make new branch from current branch
+```
+$ git branch {branch name}
+```
+chage current branch
+```
+$ git checkout {branch name}
+```
+make new branch and change current branch to the new branch
+```
+$ git checkout -b {branch name}
+```
+
+delete branch
+```
+$ git branch -d {branch name}
+```
+delete branch with force
+```
+$ git branch -D {branch name}
+```
+push deleted branch to remote repository
+```
+$ git push origin :{deleted branch name}
+```
 ### Check Differences
 check differences in local repository.
 ```
