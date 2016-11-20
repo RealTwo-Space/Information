@@ -16,6 +16,9 @@ Good
 import java.util.Arrays;
 int[] newArray = Arrays.copyOf(origin, origin.length);
 ```
+Note:
+
+This is only for primitive array.
 
 ### 2. Array Access with ``for``
 Bad
