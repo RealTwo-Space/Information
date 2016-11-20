@@ -73,7 +73,7 @@ public class Test implements Calculation<Float> {
 ```
 Good
 ```java
-public class Test ...
+public class Test... {
   public void calc(Calculation<Float> value) {
      Test temp = (Test)value;
      this.value = temp.value * temp.value * temp.value; 
