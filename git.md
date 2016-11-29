@@ -67,7 +67,8 @@ $ git pull
 ```
 $ git pull origin {branch name}
 ```
-### Check Differences
+### Check
+#### check differences
 check differences in local repository.
 ```
 $ git status
@@ -80,6 +81,14 @@ $ git diff
 ```
 ```
 $ git diff {file path}
+```
+
+#### check log (commits)
+```
+$ git log
+```
+```
+$ git log --oneline --graph --decorate
 ```
 
 ### Stage
@@ -102,13 +111,6 @@ $ git commit
 ```
 ```
 $ git commit -m "{comment}"
-```
-### Check log (commits)
-```
-$ git log
-```
-```
-$ git log --oneline --graph --decorate
 ```
 
 
