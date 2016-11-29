@@ -103,7 +103,13 @@ $ git commit
 ```
 $ git commit -m "{comment}"
 ```
-
+### Check log (commits)
+```
+$ git log
+```
+```
+$ git log --oneline --graph --decorate
+```
 
 
 #### push
