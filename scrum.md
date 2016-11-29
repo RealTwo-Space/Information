@@ -1,3 +1,3 @@
-# Scram
+# Scrum
 
 ## Terms
