@@ -128,10 +128,10 @@ $ git push origin {branch name}
 #### check
 check differences between local and remote repository
 ```
-$ git remote prune —dry-run origin
+$ git remote prune origin --dry-run
 ```
 #### sync
 sync local and remote repository. This command will change only local repository.
 ```
-$ git remote prune
+$ git remote prune origin
 ```
