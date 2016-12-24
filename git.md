@@ -135,3 +135,26 @@ sync local and remote repository. This command will change only local repository
 ```
 $ git remote prune origin
 ```
+
+#### clean
+check which files will be removed with clean command.
+```
+$ git clean -n
+```
+
+clean untracked files
+```
+$ git clean
+```
+
+clean untracked files and directries
+```
+$ git clean -d
+```
+
+else
+```
+$ git clean -f
+$ git clean -f {path}
+$ git clean -fdx
+```
